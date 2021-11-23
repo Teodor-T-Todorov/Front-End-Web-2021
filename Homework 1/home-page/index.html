@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluffer Home</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Icons from Fontawesome-->
+    <script src="https://kit.fontawesome.com/9e2267d4eb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <h1>Flutter</h1>
+        <div>
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search">
+        </div>
+
+    </nav>
+    <div id="container">
+        <div id="user">
+            <div id="user-name">
+                <img src="avatar.jpg" alt="profile-pic" id="profile-pic">
+                <b>Martin Hristov</b>
+            </div>
+
+            <div id="user-info">
+                <div id="user-stats">
+                    <div class="stats">
+                        <span class="stats-type">Posts</span>
+                        <span class="stats-number">1</span>
+                    </div>
+                    <div class="stats">
+                        <span class="stats-type">Reactions</span>
+                        <span class="stats-number">7</span>
+                    </div>
+                </div>
+
+                <button id="logout-btn">Log Out</button>
+            </div>
+        </div>
+
+        <div id="dashboard">
+            <div id="post-field">
+                <img src="avatar.jpg" alt="avatar">
+                <div id="field-container">
+                    <i class="far fa-comment-alt"></i>
+                    <input type="text" placeholder="Say something">
+                </div>
+
+            </div>
+
+            <article class="post">
+                <img src="avatar.jpg" alt="avatar" class="post-avatar">
+                
+                <div class="post-container">
+                    <div class="post-top-bar">
+                        <div class="post-creator">
+                            <b>Ivan Ivanov</b>
+                            <div class="post-time-creation">
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                <span>0 seconds ago</span>
+                            </div>
+                        </div>
+    
+                        <i class="fa fa-times cross-icon" aria-hidden="true"></i>
+                    </div>
+    
+                    <div class="post-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eveniet explicabo, 
+                        minima quasi odio ex iusto, veniam pariatur repellendus iste 
+                        adipisci impedit voluptates hic delectus laudantium 
+                        vitae itaque deleniti neque facilis!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eveniet explicabo, 
+                        minima quasi odio ex iusto, veniam pariatur repellendus iste 
+                        adipisci impedit voluptates hic delectus laudantium 
+                        vitae itaque deleniti neque facilis!
+                    </div>
+    
+                    <div class="post-likes">
+                        <div class="likes">
+                            <i class="far fa-thumbs-up"></i> 5
+                        </div>
+                        
+                        <div class="dislikes">
+                            <i class="far fa-thumbs-down"></i> 3
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <article class="post">
+                <img src="avatar.jpg" alt="avatar" class="post-avatar">
+                
+                <div class="post-container">
+                    <div class="post-top-bar">
+                        <div class="post-creator">
+                            <b>Ivan Ivanov</b>
+                            <div class="post-time-creation">
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                <span>Last month</span>
+                            </div>
+                        </div>
+    
+                        <i class="fa fa-times cross-icon" aria-hidden="true"></i>
+                    </div>
+    
+                    <div class="post-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eveniet explicabo, 
+                        minima quasi odio ex iusto, veniam pariatur repellendus iste 
+                    </div>
+    
+                    <div class="post-likes">
+                        <div class="likes">
+                            <i class="far fa-thumbs-up"></i> 3
+                        </div>
+                        
+                        <div class="dislikes">
+                            <i class="far fa-thumbs-down"></i> 0
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </div>
+    </div>
+</body>
+</html>
